@@ -1,1 +1,1 @@
-print('today'.replace('i', 'y'))
+'hello'
