@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_87bdca6fa9a34e35aa722b29be3b0789 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_87bdca6fa9a34e35aa722b29be3b0789" ></div>
+        
+</body>
+<script>    
+    
+            var map_87bdca6fa9a34e35aa722b29be3b0789 = L.map(
+                "map_87bdca6fa9a34e35aa722b29be3b0789",
+                {
+                    center: [42.1354, 24.7453],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 6,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_930c38fb4f784d50a2e335ab3639a423 = L.tileLayer(
+                "https://stamen-tiles-{s}.a.ssl.fastly.net/terrain/{z}/{x}/{y}.jpg",
+                {"attribution": "Map tiles by \u003ca href=\"http://stamen.com\"\u003eStamen Design\u003c/a\u003e, under \u003ca href=\"http://creativecommons.org/licenses/by/3.0\"\u003eCC BY 3.0\u003c/a\u003e. Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://creativecommons.org/licenses/by-sa/3.0\"\u003eCC BY SA\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_87bdca6fa9a34e35aa722b29be3b0789);
+        
+    
+            var feature_group_e8cc066205134b65a52cecb053a86690 = L.featureGroup(
+                {}
+            ).addTo(map_87bdca6fa9a34e35aa722b29be3b0789);
+        
+    
+            var marker_0d66ff1fc36b4f7aa2d34de2b8254893 = L.marker(
+                [48.7767982, -121.810997],
+                {"tiles": "Stamen Terrain", "zoomStart": 6}
+            ).addTo(feature_group_e8cc066205134b65a52cecb053a86690);
+        
+    
+            var marker_407827d9af304fc9aec7415ef9a609c0 = L.marker(
+                [48.1118011, -121.1110001],
+                {"tiles": "Stamen Terrain", "zoomStart": 6}
+            ).addTo(feature_group_e8cc066205134b65a52cecb053a86690);
+        
+    
+            var marker_072f5336ee48435c944f13e152d04966 = L.marker(
+                [46.8698006, -121.7509995],
+                {"tiles": "Stamen Terrain", "zoomStart": 6}
+            ).addTo(feature_group_e8cc066205134b65a52cecb053a86690);
+        
+    
+            var marker_9307799b329c4835ab40cecd41f1eb22 = L.marker(
+                [46.1997986, -122.1809998],
+                {"tiles": "Stamen Terrain", "zoomStart": 6}
+            ).addTo(feature_group_e8cc066205134b65a52cecb053a86690);
+        
+    
+            var marker_c96cff814b244044a969693062b16c1b = L.marker(
+                [46.2057991, -121.4909973],
+                {"tiles": "Stamen Terrain", "zoomStart": 6}
+            ).addTo(feature_group_e8cc066205134b65a52cecb053a86690);
+        
+    
+            var marker_b617d0712a99450e9d57ba3e70a619cb = L.marker(
+                [45.8797989, -122.0810013],
+                {"tiles": "Stamen Terrain", "zoomStart": 6}
+            ).addTo(feature_group_e8cc066205134b65a52cecb053a86690);
+        
+    
+            var marker_0a73d4f8aee44eb288fc447b8a3a0de1 = L.marker(
+                [45.9297981, -121.8209991],
+                {"tiles": "Stamen Terrain", "zoomStart": 6}
+            ).addTo(feature_group_e8cc066205134b65a52cecb053a86690);
+        
+    
+            var marker_e29ed0a93f6a4c02842a40bfd47de8ef = L.marker(
+                [45.3737984, -121.6910019],
+                {"tiles": "Stamen Terrain", "zoomStart": 6}
+            ).addTo(feature_group_e8cc066205134b65a52cecb053a86690);
+        
+    
+            var marker_b5cdcfd63e024e91aaef849a1ca046ef = L.marker(
+                [44.6917992, -121.8010025],
+                {"tiles": "Stamen Terrain", "zoomStart": 6}
+            ).addTo(feature_group_e8cc066205134b65a52cecb053a86690);
+        
+    
+            var marker_891c9eb02ef84252b2441dd41f0de421 = L.marker(
+                [44.4197998, -121.7710037],
+                {"tiles": "Stamen Terrain", "zoomStart": 6}
+            ).addTo(feature_group_e8cc066205134b65a52cecb053a86690);
+        
+    
+            var marker_ec7ca610f19b418297cb7e8a574f1e61 = L.marker(
+                [44.3797989, -121.9309998],
+                {"tiles": "Stamen Terrain", "zoomStart": 6}
+            ).addTo(feature_group_e8cc066205134b65a52cecb053a86690);
+        
+    
+            var marker_2ea4d688aa754fe8a9e3dcde1b96a93b = L.marker(
+                [44.3317986, -121.8310013],
+                {"tiles": "Stamen Terrain", "zoomStart": 6}
+            ).addTo(feature_group_e8cc066205134b65a52cecb053a86690);
+        
+    
+            var marker_b6ae840396b449f39b4c63bf48da2fe3 = L.marker(
+                [44.2848015, -121.8410034],
+                {"tiles": "Stamen Terrain", "zoomStart": 6}
+            ).addTo(feature_group_e8cc066205134b65a52cecb053a86690);
+        
+    
+            var marker_a5e2fb3e13a04019a48ec748db03d936 = L.marker(
+                [44.1697998, -121.7710037],
+                {"tiles": "Stamen Terrain", "zoomStart": 6}
+            ).addTo(feature_group_e8cc066205134b65a52cecb053a86690);
+        
+    
+            var marker_8c4dbc1362f24a3ba81d9ec1f612ca0a = L.marker(
+                [44.0998001, -121.7710037],
+                {"tiles": "Stamen Terrain", "zoomStart": 6}
+            ).addTo(feature_group_e8cc066205134b65a52cecb053a86690);
+        
+    
+            var marker_860d38e2afa84408985f8a561a30cd02 = L.marker(
+                [43.9788017, -121.6809998],
+                {"tiles": "Stamen Terrain", "zoomStart": 6}
+            ).addTo(feature_group_e8cc066205134b65a52cecb053a86690);
+        
+    
+            var marker_97cd9107ef3a4712990f973f2851cb0e = L.marker(
+                [43.7218018, -121.2210007],
+                {"tiles": "Stamen Terrain", "zoomStart": 6}
+            ).addTo(feature_group_e8cc066205134b65a52cecb053a86690);
+        
+    
+            var marker_2c59d3793a0b4a3583027a4584d3eb20 = L.marker(
+                [43.5698013, -121.8209991],
+                {"tiles": "Stamen Terrain", "zoomStart": 6}
+            ).addTo(feature_group_e8cc066205134b65a52cecb053a86690);
+        
+    
+            var marker_aa882b10b1f447978ff609db53028ae2 = L.marker(
+                [43.5119019, -120.8610001],
+                {"tiles": "Stamen Terrain", "zoomStart": 6}
+            ).addTo(feature_group_e8cc066205134b65a52cecb053a86690);
+        
+    
+            var marker_b3516aa3381c469b8880089388457d99 = L.marker(
+                [43.240799, -122.1009979],
+                {"tiles": "Stamen Terrain", "zoomStart": 6}
+            ).addTo(feature_group_e8cc066205134b65a52cecb053a86690);
+        
+    
+            var marker_535afc448db64989a2191c7a0b6865de = L.marker(
+                [43.4719009, -120.7509995],
+                {"tiles": "Stamen Terrain", "zoomStart": 6}
+            ).addTo(feature_group_e8cc066205134b65a52cecb053a86690);
+        
+    
+            var marker_a0b224995daf48f1a87edb8b0e40c96b = L.marker(
+                [43.3609009, -120.6610031],
+                {"tiles": "Stamen Terrain", "zoomStart": 6}
+            ).addTo(feature_group_e8cc066205134b65a52cecb053a86690);
+        
+    
+            var marker_c730bd8ac0524f49a6bb0f96fd05c5f8 = L.marker(
+                [42.9299011, -122.1210022],
+                {"tiles": "Stamen Terrain", "zoomStart": 6}
+            ).addTo(feature_group_e8cc066205134b65a52cecb053a86690);
+        
+    
+            var marker_38112143781b4372b4c1722540ca4806 = L.marker(
+                [44.4299011, -110.6709976],
+                {"tiles": "Stamen Terrain", "zoomStart": 6}
+            ).addTo(feature_group_e8cc066205134b65a52cecb053a86690);
+        
+    
+            var marker_6953b133a618495787c1170b9e519ecd = L.marker(
+                [43.0998993, -118.7509995],
+                {"tiles": "Stamen Terrain", "zoomStart": 6}
+            ).addTo(feature_group_e8cc066205134b65a52cecb053a86690);
+        
+    
+            var marker_5a0e1570ed40434bb6f21f82be392648 = L.marker(
+                [43.1498985, -117.4710007],
+                {"tiles": "Stamen Terrain", "zoomStart": 6}
+            ).addTo(feature_group_e8cc066205134b65a52cecb053a86690);
+        
+    
+            var marker_df5c4a26a62540f5b995d7932306bb6e = L.marker(
+                [42.9999008, -117.8010025],
+                {"tiles": "Stamen Terrain", "zoomStart": 6}
+            ).addTo(feature_group_e8cc066205134b65a52cecb053a86690);
+        
+    
+            var marker_67222f0dbc6e485399ff4d3dfe8a0df5 = L.marker(
+                [43.419899, -113.5009995],
+                {"tiles": "Stamen Terrain", "zoomStart": 6}
+            ).addTo(feature_group_e8cc066205134b65a52cecb053a86690);
+        
+    
+            var marker_31209cb3111249f08b812f082911fc4f = L.marker(
+                [43.4999008, -112.4509964],
+                {"tiles": "Stamen Terrain", "zoomStart": 6}
+            ).addTo(feature_group_e8cc066205134b65a52cecb053a86690);
+        
+    
+            var marker_06cd8597e4cb4ad4926024a41dfd8f93 = L.marker(
+                [43.1799011, -114.3509979],
+                {"tiles": "Stamen Terrain", "zoomStart": 6}
+            ).addTo(feature_group_e8cc066205134b65a52cecb053a86690);
+        
+    
+            var marker_6756c3e78d64484492a4deb532b0b669 = L.marker(
+                [42.6058998, -117.5810013],
+                {"tiles": "Stamen Terrain", "zoomStart": 6}
+            ).addTo(feature_group_e8cc066205134b65a52cecb053a86690);
+        
+    
+            var marker_a0fa6f6b3ae54a7fadf7e096543ea8c4 = L.marker(
+                [41.5798988, -121.5709991],
+                {"tiles": "Stamen Terrain", "zoomStart": 6}
+            ).addTo(feature_group_e8cc066205134b65a52cecb053a86690);
+        
+    
+            var marker_a3326f91ac474488b3bce9eeb096065d = L.marker(
+                [42.8799019, -113.2210007],
+                {"tiles": "Stamen Terrain", "zoomStart": 6}
+            ).addTo(feature_group_e8cc066205134b65a52cecb053a86690);
+        
+    
+            var marker_4860795d22714a79852b078c8dc956ae = L.marker(
+                [41.419899, -122.2009964],
+                {"tiles": "Stamen Terrain", "zoomStart": 6}
+            ).addTo(feature_group_e8cc066205134b65a52cecb053a86690);
+        
+    
+            var marker_7f8810222cb349a19d6cb420ec0f9fc0 = L.marker(
+                [41.1778984, -121.4410019],
+                {"tiles": "Stamen Terrain", "zoomStart": 6}
+            ).addTo(feature_group_e8cc066205134b65a52cecb053a86690);
+        
+    
+            var marker_9784842c4bc9486682ee543c81799185 = L.marker(
+                [40.9548988, -121.3610001],
+                {"tiles": "Stamen Terrain", "zoomStart": 6}
+            ).addTo(feature_group_e8cc066205134b65a52cecb053a86690);
+        
+    
+            var marker_77afc9e2f84146c5901ba18f035c8a18 = L.marker(
+                [40.7798996, -121.6009979],
+                {"tiles": "Stamen Terrain", "zoomStart": 6}
+            ).addTo(feature_group_e8cc066205134b65a52cecb053a86690);
+        
+    
+            var marker_1eb9004c378644eda7fc71fbe4d09e5c = L.marker(
+                [40.6799011, -121.5510025],
+                {"tiles": "Stamen Terrain", "zoomStart": 6}
+            ).addTo(feature_group_e8cc066205134b65a52cecb053a86690);
+        
+    
+            var marker_ce03dc8c32dd47dc833269805ff21044 = L.marker(
+                [40.6299019, -120.8310013],
+                {"tiles": "Stamen Terrain", "zoomStart": 6}
+            ).addTo(feature_group_e8cc066205134b65a52cecb053a86690);
+        
+    
+            var marker_73284bec65c042848a30b261645f0e52 = L.marker(
+                [40.4919014, -121.5009995],
+                {"tiles": "Stamen Terrain", "zoomStart": 6}
+            ).addTo(feature_group_e8cc066205134b65a52cecb053a86690);
+        
+    
+            var marker_6e7f0691d79943e59e5be279800a7769 = L.marker(
+                [38.9698982, -122.7710037],
+                {"tiles": "Stamen Terrain", "zoomStart": 6}
+            ).addTo(feature_group_e8cc066205134b65a52cecb053a86690);
+        
+    
+            var marker_4dc6920e22394fbfbec0c7a684c22c35 = L.marker(
+                [39.3749008, -119.7210007],
+                {"tiles": "Stamen Terrain", "zoomStart": 6}
+            ).addTo(feature_group_e8cc066205134b65a52cecb053a86690);
+        
+    
+            var marker_0e505d0e40a343068624bf146c353533 = L.marker(
+                [39.6500015, -107.0309982],
+                {"tiles": "Stamen Terrain", "zoomStart": 6}
+            ).addTo(feature_group_e8cc066205134b65a52cecb053a86690);
+        
+    
+            var marker_f4b88c97a17b4e88840b48d9f3b49cb3 = L.marker(
+                [37.9999008, -119.0309982],
+                {"tiles": "Stamen Terrain", "zoomStart": 6}
+            ).addTo(feature_group_e8cc066205134b65a52cecb053a86690);
+        
+    
+            var marker_38accbf3cf6b44b0aaf220ae1674b435 = L.marker(
+                [38.9700012, -112.5009995],
+                {"tiles": "Stamen Terrain", "zoomStart": 6}
+            ).addTo(feature_group_e8cc066205134b65a52cecb053a86690);
+        
+    
+            var marker_e3479f6b302742589d42be3a9bc680cf = L.marker(
+                [37.8799019, -119.0009995],
+                {"tiles": "Stamen Terrain", "zoomStart": 6}
+            ).addTo(feature_group_e8cc066205134b65a52cecb053a86690);
+        
+    
+            var marker_a7d7d2dfbbe64bf5936a26c30e5b4fa7 = L.marker(
+                [37.6918983, -119.0210037],
+                {"tiles": "Stamen Terrain", "zoomStart": 6}
+            ).addTo(feature_group_e8cc066205134b65a52cecb053a86690);
+        
+    
+            var marker_fc6ad5090abf4e0d8706609b25efc7e5 = L.marker(
+                [37.6999016, -118.8710022],
+                {"tiles": "Stamen Terrain", "zoomStart": 6}
+            ).addTo(feature_group_e8cc066205134b65a52cecb053a86690);
+        
+    
+            var marker_5a6b136523c84c18976f83b4822c7956 = L.marker(
+                [37.5798988, -119.0510025],
+                {"tiles": "Stamen Terrain", "zoomStart": 6}
+            ).addTo(feature_group_e8cc066205134b65a52cecb053a86690);
+        
+    
+            var marker_9adfd954d8874483bb1912521b896c45 = L.marker(
+                [37.0199013, -117.4509964],
+                {"tiles": "Stamen Terrain", "zoomStart": 6}
+            ).addTo(feature_group_e8cc066205134b65a52cecb053a86690);
+        
+    
+            var marker_5ac51fa07d50455ba563cad2c5aefa38 = L.marker(
+                [37.5800018, -112.6709976],
+                {"tiles": "Stamen Terrain", "zoomStart": 6}
+            ).addTo(feature_group_e8cc066205134b65a52cecb053a86690);
+        
+    
+            var marker_f0bff9755fb5429598a395aee5f2610c = L.marker(
+                [37.257, -113.6210022],
+                {"tiles": "Stamen Terrain", "zoomStart": 6}
+            ).addTo(feature_group_e8cc066205134b65a52cecb053a86690);
+        
+    
+            var marker_b6f8f96202804ce482f3793175ca8046 = L.marker(
+                [37.3279991, -112.401001],
+                {"tiles": "Stamen Terrain", "zoomStart": 6}
+            ).addTo(feature_group_e8cc066205134b65a52cecb053a86690);
+        
+    
+            var marker_f1f78825ce7647d3b40e7a3c040913e1 = L.marker(
+                [36.3578987, -118.3209991],
+                {"tiles": "Stamen Terrain", "zoomStart": 6}
+            ).addTo(feature_group_e8cc066205134b65a52cecb053a86690);
+        
+    
+            var marker_5c9b600ee3954ab9a690110c7e91505e = L.marker(
+                [36.0298996, -117.8209991],
+                {"tiles": "Stamen Terrain", "zoomStart": 6}
+            ).addTo(feature_group_e8cc066205134b65a52cecb053a86690);
+        
+    
+            var marker_8a787508bf134666ba8de092d629f969 = L.marker(
+                [36.3800011, -113.1309967],
+                {"tiles": "Stamen Terrain", "zoomStart": 6}
+            ).addTo(feature_group_e8cc066205134b65a52cecb053a86690);
+        
+    
+            var marker_a8551801586b41d08d8b4514dd37eb33 = L.marker(
+                [34.75, -116.6210022],
+                {"tiles": "Stamen Terrain", "zoomStart": 6}
+            ).addTo(feature_group_e8cc066205134b65a52cecb053a86690);
+        
+    
+            var marker_9aecd563fad14324b3c788916f8b9571 = L.marker(
+                [35.8699989, -106.5709991],
+                {"tiles": "Stamen Terrain", "zoomStart": 6}
+            ).addTo(feature_group_e8cc066205134b65a52cecb053a86690);
+        
+    
+            var marker_05712c8d0d6746219ac156e03f721cf2 = L.marker(
+                [35.3699989, -111.5009995],
+                {"tiles": "Stamen Terrain", "zoomStart": 6}
+            ).addTo(feature_group_e8cc066205134b65a52cecb053a86690);
+        
+    
+            var marker_85155b7510e74334b88cdfe6d0a7a8a9 = L.marker(
+                [34.5499992, -115.7809982],
+                {"tiles": "Stamen Terrain", "zoomStart": 6}
+            ).addTo(feature_group_e8cc066205134b65a52cecb053a86690);
+        
+    
+            var marker_0489f8e179e44736bc1084d6ff275391 = L.marker(
+                [34.7999992, -108.0009995],
+                {"tiles": "Stamen Terrain", "zoomStart": 6}
+            ).addTo(feature_group_e8cc066205134b65a52cecb053a86690);
+        
+    
+            var marker_b2ee966dd2464e24860154c661e99406 = L.marker(
+                [33.7801018, -105.9309998],
+                {"tiles": "Stamen Terrain", "zoomStart": 6}
+            ).addTo(feature_group_e8cc066205134b65a52cecb053a86690);
+        
+</script>
