@@ -2,7 +2,7 @@ import cv2
 
 face_cascade = cv2.CascadeClassifier("haarcascade_frontalface_default.xml")
 
-video = cv2.VideoCapture(1)
+video = cv2.VideoCapture(0)
 
 while True:
     check, frame = video.read()
@@ -16,7 +16,7 @@ while True:
         img = cv2.rectangle(gray, (x, y), (x + w, y + h), (0, 255, 0), 3)
 
     cv2.imshow("Capturing", gray)
-    key = cv2.waitKey(1)
+    key = cv2.waitKey(10)
     if key == ord('q'):
         break
 
